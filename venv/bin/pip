@@ -1,0 +1,12 @@
+#!/bin/sh
+'''exec' "/Users/christopherivy/Desktop/SpringBoard School/Section 24 - Intermediate Flask/24.1/flask-wtforms-demo/VideoDemo/venv/bin/python3" "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from pip._internal import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
